@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css"/>
+    <title>Advinhe o número</title>
 </head>
 <body>
-    
+    <main>
+        <div id="mainScreen">
+          <h2>Advinhe o número: <br />1 a 100</h2>
+        </div>
+  
+        <div id="game">
+          <section>
+            <h3 id="textOutput">Digite seu número:</h3>
+            <input type="number" id="inputNumber" min="1" max="100" />
+          </section>
+          <section class="status">
+            <div class="gameInfo">
+              <p>Número de tentativas</p>
+              <span id="attempts"></span>
+            </div>
+            <div class="gameInfo">
+              <p>Números inserdos:</p>
+              <span id="guesses" class="guessesInfo"></span>
+            </div>
+          </section>
+          <button id="buttonNR">Nova partida</button>
+        </div>
+      </main>
+      <script src="./main.js"></script>
 </body>
 </html>
