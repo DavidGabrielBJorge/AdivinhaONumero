@@ -8,9 +8,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css"/>
+    <link rel="icon" type="image/png" href="./img/favicon.png">
     <title>Advinhe o número</title>
 </head>
-<body>
+<body onload="begin()">
     <main>
         <div id="mainScreen">
           <h2>Advinhe o número: <br />1 a 100</h2>
@@ -19,11 +20,11 @@
         <div id="game">
           <section class="gameOutput">
             <h3 id="textOutput">Digite seu número:</h3>
-            <input type="number" id="inputNumber" min="1" max="100" />
+            <input type="number" id="inputNumber" min="1" max="100" onchange="guessNumbers()"/>
           </section>
           <section class="status">
             <div class="gameInfo">
-              <p>Número de tentativas</p>
+              <p>Número de tentativas:</p>
               <span id="attempts"></span>
             </div>
             <div class="gameInfo">
@@ -31,7 +32,7 @@
               <span id="guesses" class="guessesInfo"></span>
             </div>
           </section>
-          <button id="buttonNR">Nova partida</button>
+          <button id="buttonNR" onclick="newRound()">Nova partida</button>
         </div>
       </main>
       <script src="./main.js"></script>
