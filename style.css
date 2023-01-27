@@ -15,12 +15,19 @@
     box-sizing: border-box;
 }
 
+/*Estilizando o html*/
+html{
+    font-size: 12px;
+}
+
 /*Estilizando o body*/
 body {
     background-color: var(--orange-color);
     margin: 0 auto;
     font-family: Noto Sans, sans-serif;
     padding: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
 }
 
 /*Estilizando o main*/
@@ -40,9 +47,12 @@ h2 {
 }
   
 p {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
+.gameOutput{
+    padding-bottom: 2rem;
+}
 /*Estilizando o button*/
 .button-wrapper {
     display: flex;
@@ -56,5 +66,37 @@ button {
     font-size: 1.5rem;
     background: var(--blue-color);
     border-radius: 1rem 1rem 1rem 1rem;
+    margin-top: 2rem;
+}
+
+/*Estilizando as informacoes*/
+
+h3 {
+    font-size: 3rem;
+  }
+  
+.inputNumber {
+    border: 2px solid lightgray;
+    background: transparent;
+    margin: 2rem 0;
+    padding: 1rem 0;
+    width: 25rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+.status {
+    text-align: left;
 }
   
+.gameInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+.gameInfo span {
+    font-size: 1.6rem;
+}
+
+
