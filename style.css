@@ -18,6 +18,26 @@
 /*Estilizando o body*/
 body {
     background-color: var(--orange-color);
-    margin: 0px;
+    margin: 0 auto;
     font-family: Noto Sans, sans-serif;
+    padding: 4rem;
+}
+
+main {
+    text-align: center;
+    border: solid var(--blue-color);
+    border-width: 8px 8px 8px 8px;
+    min-height: 40vh;
+    border-radius: 2rem 2rem 2rem 2rem;
+    padding: 4rem;
+    color: var(--black-color);
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 2rem 2rem 2rem 2rem;
+}
+  
+p {
+    font-size: 2rem;
 }
