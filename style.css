@@ -23,6 +23,7 @@ body {
     padding: 4rem;
 }
 
+/*Estilizando o main*/
 main {
     text-align: center;
     border: solid var(--blue-color);
@@ -41,3 +42,19 @@ h2 {
 p {
     font-size: 2rem;
 }
+
+/*Estilizando o button*/
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+  
+button {
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background: var(--blue-color);
+    border-radius: 1rem 1rem 1rem 1rem;
+}
+  
