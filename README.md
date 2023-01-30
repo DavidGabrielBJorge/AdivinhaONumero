@@ -1,5 +1,5 @@
 # Advinha o Número
-#### Link do projeto:
+#### Link do projeto: https://davidgabrielbjorge.github.io/AdivinhaONumero/
 ## Objetivo do projeto:
 #### Esse projeto é um jogo no qual o usuário deve advinhar o número que o computador escolheu, sua opção é de 1 a 100 e possui apenas 10 tentativas. Foi usado HTML5 e CSS3 para criar a view página, além disso toda lógica foi criada usando JavaScript. Sua publicação foi feita usando o "GitHub Pages".
 ## Tecnologias utilizadas:
