@@ -99,4 +99,58 @@ h3 {
     font-size: 1.6rem;
 }
 
+@media (max-width: 1300px) {
+    body {
+      width: 100vw;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    main {
+      width: 300px;
+      padding: 2rem;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    h2{
+      font-size: 2.4rem;
+    }
+    h3{
+      font-size: 2rem;
+    }
+
+    input {
+      margin: 2rem 0;
+      padding: 0.75rem 0;
+      width: 10rem;
+      font-size: 1rem;
+    }
+
+    p{
+      font-size: 1.4rem;
+    }
+
+    button {
+      padding: 1rem 3rem;
+      border-radius: 1rem 1rem 1rem 1rem;
+      font-size: 1.8rem;
+    }
+
+    #buttonNR {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .gameInfo{
+        flex-direction: column;
+    }
+    .gameInfo span {
+      font-size: 1.2rem;
+    }
+
+    .guessesInfo{
+      font-weight: bold;
+    }
+    
+  }
 
