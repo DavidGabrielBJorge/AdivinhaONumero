@@ -28,7 +28,7 @@ function guessNumbers(){
         sameNumbers.push(userNumber);
         document.getElementById('guesses').innerHTML = userNumbers;
 
-        if(userNumber>100){
+        if(userNumber>100 || userNumber<1){
             overHundred=userNumbers.pop();
             document.getElementById('textOutput').innerHTML = 'Tem que ser um número entre 1 e 100';
         }
